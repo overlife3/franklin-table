@@ -1,0 +1,36 @@
+.add-virtues {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.add-virtues.loading {
+	visibility: hidden;
+}
+
+.controller-virtues .title {
+	color: #301265;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.add-virtues input,
+.add-virtues textarea {
+	color: #301265;
+	border: 3px solid #6678b1;
+	font-size: 28px;
+	outline: none;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+}
+
+.add-virtues input::placeholder,
+.add-virtues textarea::placeholder {
+	color: #725a9c;
+}
+
+.btn:disabled {
+	background-color: rgb(125, 133, 183);
+	cursor: auto;
+}

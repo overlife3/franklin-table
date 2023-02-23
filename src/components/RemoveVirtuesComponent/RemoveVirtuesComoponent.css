@@ -1,0 +1,29 @@
+.remove-virtues {
+	width: fit-content;
+	white-space: nowrap;
+}
+
+.explanation-text {
+	color: #301265;
+	font-weight: 200;
+	font-size: 28px;
+	margin: 0;
+}
+
+select {
+	font-size: 28px;
+	color: #301265;
+	font-weight: 300;
+	padding: 10px 20px;
+	outline: none;
+	border: 3px solid #6678b1;
+	margin-right: 30px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+select option {
+	text-transform: capitalize;
+}

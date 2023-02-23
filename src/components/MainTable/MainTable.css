@@ -1,0 +1,81 @@
+.table {
+	width: 1000px;
+	border-collapse: collapse;
+}
+
+.table.loading, .table.error {
+	visibility: hidden;
+}
+
+tbody tr:last-child td,
+tbody tr:last-child th {
+	position: relative;
+}
+tbody tr:last-child td::before,
+tbody tr:last-child th::before {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 80px;
+	bottom: -80px;
+} 
+
+tbody tr:last-child th::before {
+	width: 4px;
+	right: -4px;
+	background-color: #6678b1;
+}
+
+tbody tr:last-child td::before {
+	width: 1px;
+	background-color: rgb(177, 177, 177);
+	right: -1px;
+}
+
+tbody tr:last-child td:last-child::before {
+	content: none;
+}
+.week-cell:last-child,
+.day-cell:last-child {
+	position: relative;
+}
+
+.week-cell:last-child::before,
+.day-cell:last-child::before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 120px;
+	right: -120px;
+}
+
+.week-cell:last-child::before {
+	height: 5px;
+	background-color: #6678b1;
+	bottom: -5px;
+}
+
+.day-cell:last-child::before {
+	height: 1px;
+	background-color: rgb(177, 177, 177);
+	bottom: -1px;
+}
+
+.main-table tbody tr:last-child td:last-child::before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 120px;
+	right: -120px;
+}
+
+.main-table tbody tr:last-child td:last-child::after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 80px;
+	bottom: -80px;
+	width: 1px;
+	background-color: rgb(177, 177, 177);
+	right: -1px;
+}

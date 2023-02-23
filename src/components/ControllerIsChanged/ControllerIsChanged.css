@@ -1,0 +1,26 @@
+.controller-is-changed {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	visibility: hidden;
+}
+
+.controller-is-changed.visible {
+	visibility: visible;
+}
+
+.btn {
+	padding: 10px 20px;	
+	margin-right: 20px;
+	background-color: #738ff1;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #7089e0;
+}

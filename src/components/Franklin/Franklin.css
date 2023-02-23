@@ -1,0 +1,24 @@
+.franklin {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 80px;
+	width: 1400px;
+	margin: 50px auto;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 40px;
+	color: #301265;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.main-title.loading {
+	visibility: hidden;
+}

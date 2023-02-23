@@ -1,0 +1,7 @@
+.table-controller .row-controller td {
+	padding-left: 20px;
+}
+
+.row-controller.warning {
+	background-color: rgb(253, 137, 137);
+}

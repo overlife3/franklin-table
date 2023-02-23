@@ -1,0 +1,10 @@
+.controller-virtues {
+	display: flex;
+	margin: auto;
+	gap: 50px;
+	padding-top: 100px;
+}
+
+.controller-virtues.loading {
+	visibility: hidden;
+}

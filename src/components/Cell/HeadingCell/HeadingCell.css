@@ -1,0 +1,25 @@
+.virtues-cell {
+	text-transform:capitalize;
+	font-size: 32px;
+	border-right: 4px solid #6678b1;
+	border-bottom: 1px solid rgb(177, 177, 177);
+	width: 140px;
+}
+.week-cell {
+	font-size: 28px;
+	border-bottom: 5px solid #6678b1;
+	border-right: 1px solid rgb(177, 177, 177);
+}
+.heading-cell {
+	box-sizing: border-box;
+	padding: 10px;
+	color: #301265;
+	height: 70px;
+	font-weight: 300;
+}
+
+.heading-cell:empty {
+	border-right: 4px solid #6678b1;
+}
+
+
